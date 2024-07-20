@@ -13,3 +13,10 @@ def deposit():
             print('Please enter a number')
 
     return amount
+
+
+def main():
+    balance = deposit()
+
+
+main()
